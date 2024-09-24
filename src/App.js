@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-
+      <h5>{process.env.React_App_URL}</h5>
       <DataTable data={data} />
     </>
   );
